@@ -35,6 +35,11 @@ dt {
     font-weight: bold;
 }
 
+#wrapper {
+    width: 80%;
+    margin: auto auto;
+}
+
 footer {
     font-size: .70rem;
     font-style: italic;
