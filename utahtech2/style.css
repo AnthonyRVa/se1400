@@ -38,6 +38,7 @@ dt {
 #wrapper {
     width: 80%;
     margin: auto auto;
+    background-color: bisque;
 }
 
 footer {
