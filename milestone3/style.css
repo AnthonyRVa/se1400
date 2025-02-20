@@ -7,7 +7,7 @@
 }
 
 #banner, #projects, #page_break2, #example_work, #about_myself, #footer, #section, #page_break {
-    border: 2px, solid, black;
+    border: 1px solid black;
     min-width: 100px;
 }
 #banner {
@@ -29,9 +29,8 @@
 }
 
 #example_work{
-    grid-column: 1 / -1;
+    grid-column: 2 / -2;
     grid-row: 8 / 14;
-    margin: 10px 0px;
     background-color: #550ee3b1;
 }
 
@@ -52,4 +51,10 @@
     background-color: #0e8ae3b1;
 }
 
+#main{
+    grid-column: 2 / -2;
+    grid-row: 1/ 20;
+    background-color: #414140d0;
+    z-index: -1;
+}
 
