@@ -122,7 +122,8 @@
     }
 
 #c2 {
-    padding: 10px; 
+    padding: 10px;
+    margin-bottom: 100px; 
     grid-row: 8 / 14;
     grid-column: 3 / -3;
     background-color: #373737;
