@@ -129,7 +129,7 @@ nav {
 
 nav ul{
     list-style-type: none;
-    background-color: 424242;
+    background-color:#424242;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -241,7 +241,7 @@ ul{
     }
 
     nav {
-        grid-rows: 2 / 3;
+        grid-row: 2 / 3;
         grid-column: 1 / -1;
     }
 
