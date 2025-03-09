@@ -187,6 +187,8 @@ ul{
     background-color: #424242;
     grid-column: 1 / -1;
     grid-row: 2 / 3;
+    position: sticky;
+    top: 0;
 }
 
  
@@ -204,6 +206,10 @@ ul{
 
 @media only screen and (max-width: 900px) {
 
+    #greybar {
+        position: static;
+    }
+    
     nav {
         grid-row: 2 / 3;
         grid-column: 1 / 5;

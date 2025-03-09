@@ -5,8 +5,10 @@
 
 #main{
     background-color: #c81212;
-    
-    
+}
+
+#projects {
+    flex-flow: column wrap;
 }
 
 #banner {
@@ -43,38 +45,22 @@ nav ul li {
 }
 
 
-#example1, #example2, #example3, #example4 {
-    display: flex;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    border-radius: 4px;
-    border: #8A246E 2px solid;
-}
     #example1{
-        display: flex;
-        grid-column: 1 / 6;
-        grid-row: 1 / 4;
+        grid-row: 1 / 5;
+        grid-column: 1 / -1;
         background-image: url(images/DeathsDoor_Office.PNG);
     }
 
     #example2{
-        display: flex;
-        grid-column: 7 / 12;
-        grid-row: 1 / 4;
+        grid-row: 5 / 9;
+        grid-column: 1 / -1;
         background-image: url(images/SkinWalker_Church_Shot.JPG);
     }
 
     #example3{
-        display: flex;
-        grid-column: 7 / 12;
-        grid-row: 5 / 8;
-        background-image: url(images/DeathsDoor_Office.PNG);
+        display: none;
     }
 
     #example4{
-        display: flex;
-        grid-column: 1 / 6;
-        grid-row: 5 / 8;
-        background-image: url(images/SkinWalker_Church_Shot.JPG);
+        display: none;
     }
