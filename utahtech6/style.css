@@ -184,6 +184,7 @@ ul{
 
 #contact{
     padding-top: 1rem ;
+    text-align: center;
 }
 
 #bluebar {
@@ -225,7 +226,8 @@ form {
     form input[type="submit"] {
         width: 100%;
         background-color: #ccc;
-        grid-column: 1 / -1;
+        grid-column: 2 / -1;
+        margin: 0px 0px 15px;
     }
 
     label {

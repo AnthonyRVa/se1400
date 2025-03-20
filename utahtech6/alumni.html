@@ -37,35 +37,29 @@
     <h3>Request Alumni Newsletter</h3>
     <p>Required Information is marked with an asterisk (*)</p>
 
-    <form method="post" attribute="action" id="alumni_form">
+    <form action="https://kearl.net/se1400/mail.php" method="post" id="alumni_form">
       
-      <label for="myFName">First Name:</label>
-      <input type="text" id="myFName" name="FName">
+      <label for="myFName">* First Name:</label>
+      <input type="text" id="myFName" name="FName" required>
 
-      <label for="myLName">Last Name:</label>
-      <input type="text" id="myLName" name ="LName">
-      <label for="myEmail">E-mail:</label>
-      <input type="text" id="myEmail" name="myEmail">
+      <label for="myLName">* Last Name:</label>
+      <input type="text" id="myLName" name ="LName" required>
+      <label for="myEmail">* E-mail:</label>
+      <input type="email" id="myEmail" name="myEmail" required>
 
       <label for="myPhone">Phone:</label>
-      <input type="text" id="myPhone" name="myPhone">
+      <input type="tel" id="myPhone" name="myPhone">
 
       <label for="myGradYear">Graduation Year:</label>
       <input type="date" id="myGradYear" name="myGradYear">
 
-      <label for="myComments">Comments:</label>
-      <textarea id="myComments" name="myComments" rows="2" cols="20"></textarea>
+      <label for="myComments">* Comments:</label>
+      <textarea id="myComments" name="myComments" rows="2" cols="20" required></textarea>
 
       <input type="submit" value="Submit">
 
     </form>
 
-    <div id="contact">
-      Utah Tech University<br>
-      225 S 700 E<br>
-      St George, UT 84770<br><br>
-      (435) 652-7500<br><br>
-    </div>
   </main>
   <footer>
       Copyright &copy; 2025 Utah Tech University<br>
