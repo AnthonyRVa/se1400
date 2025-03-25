@@ -279,10 +279,6 @@ nav ul li a {
     grid-template-columns: minmax(0px, 1fr) 768px minmax(0px, 1fr);
 }
 
-#main{
-    background-color: #12c562;
-}
-
 #projects {
     flex-flow: column wrap;
 }
@@ -307,6 +303,10 @@ nav ul {
     flex-direction: row;
     align-items: center ;
     justify-content: center;
+}
+
+nav {
+    position: relative;
 }
 
 nav ul li {
@@ -340,10 +340,6 @@ nav ul li {
 
 #wrapper {
     grid-template-columns: 100%;
-}
-
-nav {
-    position: relative;
 }
 
 nav ul {
