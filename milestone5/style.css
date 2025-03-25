@@ -270,3 +270,11 @@ nav ul li a {
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
 }
+
+/* Media Queries */
+
+@media screen only and (max-width: 992px) {
+    #main {
+        background-color: #1e1e1e;
+    }
+}
