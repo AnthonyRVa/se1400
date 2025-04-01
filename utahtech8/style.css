@@ -189,6 +189,7 @@ nav ul li a {
     text-align: center; 
 }
 nav a:hover {
+    transition: background-color 0.5s ease;
     background-color: #BA1C21;
 }
 
@@ -211,6 +212,11 @@ nav a:hover {
 
 ul{
     padding: 0rem 0rem 0rem 2rem;
+}
+
+video {
+    float: right;
+    margin-left: 2em;
 }
 
 #contact{
@@ -294,6 +300,13 @@ form {
         grid-column: 1 / 5;
         position: static;
         
+    }
+
+    video {
+        float: none;
+        margin: 0px;
+        width: 100%;
+        height: auto;
     }
 
     nav ul {
