@@ -82,7 +82,7 @@ body {
                 margin: 15px;
             }
 
-            #project1:hover, #project2:hover {
+            #projects #project1:hover, #projects #project2:hover {
                 border: 2px rgb(207, 206, 206) solid;
             }
 
