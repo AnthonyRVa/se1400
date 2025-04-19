@@ -33,6 +33,14 @@ body {
     border-bottom: #8A246E 4px solid;
 }
 
+#banner h1 {
+    color: #d0d0d0;
+    background-color: #2d2d2ddd;
+    border-radius: 0px 5px 5px 0px;
+    padding: 7px;
+}
+
+
 #c1 {
     padding: 20px; 
     grid-row: 2 / 7;
@@ -518,6 +526,15 @@ nav ul li a {
 
 @media only screen and (max-width: 992px) {
 
+    #banner {
+        height: 5400px;
+    }
+
+    #banner h1 {
+        size: .5rem;
+        padding: 7px;
+    }
+    
     #project1, #project2 {
         display: flex;
         flex-direction: column;
@@ -636,19 +653,25 @@ nav ul li {
     display: block;
 }
 
-    #example1{
-        grid-row: 1 / 5;
-        grid-column: 1 / -1;
-        background-image: url(images/DeathsDoor_Office.PNG);
-    }
-
-    #example2{
-        grid-row: 5 / 9;
+    #example_work #example1{
+        grid-row: 1 / 6;
         grid-column: 1 / -1;
         background-image: url(images/SkinWalker_Church_Shot.JPG);
     }
 
+    #example2{
+        display: none;
+    }
 
+    #example3 {
+        display: none;
+    }
+
+
+    #example_work #example4 {
+        grid-column: 1 / -1;
+        grid-row: 6 / 11;
+    }
 
 }
 
